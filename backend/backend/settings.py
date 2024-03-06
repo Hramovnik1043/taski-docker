@@ -7,7 +7,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'some_default_key$')
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['51.250.17.158', '127.0.0.1', 'localhost', 'yatasking.ddns.net']
 
 
 # Application definition
